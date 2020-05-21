@@ -1,0 +1,63 @@
+body{
+    background-color: darkcyan;
+}
+
+nav {
+    background-color: orange;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: .5em;
+}
+
+nav a{
+    color: #7E2929;
+    margin: .2em 1em 0px 1em;
+}
+
+nav a:hover{
+    color: white;
+}
+
+.wrapper{
+    background-color: #ffffff;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: royalblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    width: 100%;
+    background-color: #faebd7;
+}
+
+main{
+    flex: 3;
+    margin: 1em;
+}
+
+aside{
+    flex: 1;
+    margin: 1em;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer a{
+    color: goldenrod;
+}
+
+.image-wizardofozcast{
+    width: 100%;
+    height: auto;
+}
